@@ -49,7 +49,8 @@ driver.findElement(By.id("agree_terms")).click();
 }
 driver.quit();
 }
-	@Test(priority=2,enabled=false) 
+	@Test(priority=2) 
+	//@Test(priority=2,enabled=false) 
 	public void login() throws InterruptedException {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
